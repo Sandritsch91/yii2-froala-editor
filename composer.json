@@ -1,0 +1,49 @@
+{
+    "name": "sandritsch91/yii2-froala-editor",
+    "description": "Yii2 Froala Editor widget extended from froala/yii2-froala-editor",
+    "type": "yii2-extension",
+    "minimum-stability": "dev",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Sandro Venetz",
+            "email": "sandro.venetz@gmx.ch"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/sandritsch91/yii2-froala-editor",
+        "issues": "https://github.com/sandritsch91/yii2-froala-editor/issues"
+    },
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "yiisoft/yii2": "^2.0.42",
+        "froala/yii2-froala-editor": "^4.1.1"
+    },
+    "require-dev": {
+        "yiisoft/yii2-bootstrap5": "^2.0.4"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "secure-http": false,
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "sandritsch91\\yii2\\froala-editor\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
