@@ -38,7 +38,7 @@
     },
     "autoload": {
         "psr-4": {
-            "sandritsch91\\yii2\\froala-editor\\": "src"
+            "sandritsch91\\yii2\\froala\\": "src"
         }
     },
     "extra": {
