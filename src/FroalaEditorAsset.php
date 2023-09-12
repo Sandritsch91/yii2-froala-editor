@@ -13,6 +13,9 @@ class FroalaEditorAsset extends AssetBundle
     public $js = [
         'js/froala-link.js'
     ];
+    public $depends = [
+        'froala\froalaeditor\FroalaEditorAsset'
+    ];
     public $publishOptions = [
         'forceCopy' => YII_DEBUG
     ];
