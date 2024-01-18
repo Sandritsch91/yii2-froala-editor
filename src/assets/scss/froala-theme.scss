@@ -5,21 +5,27 @@
 
 .custom-theme {
     .fr-toolbar, &.fr-popup {
+        /*
         @include border-top-radius($input-border-radius);
+        /*/
+        border-top-left-radius: $input-border-radius!important;
+        border-top-right-radius: $input-border-radius!important;
+        //*/
 
         background-color: var(--bs-white);
         border: none transparent;
         border-top: 5px solid var(--bs-primary);
-        box-shadow: 0 1px 3px rgba(var(--bs-black-rgb),.12), 0 1px 1px 1px rgba(var(--bs-black-rgb),.16);
+        box-shadow: 0 1px 3px rgba(var(--bs-black-rgb), .12), 0 1px 1px 1px rgba(var(--bs-black-rgb), .16);
 
         .fr-btn-grp {
-            border-right: 1px solid var(--bs-gray-200);
+            border-right: 1px solid var(--bs-gray-400);
             margin: 0 4px 0 0;
             padding-right: 4px;
 
             &:first-child {
                 margin-left: 0;
             }
+
             &:last-child {
                 border-right: none transparent;
                 margin-right: 0;
@@ -126,7 +132,7 @@
 
         background-color: $white;
         border: none transparent !important;
-        box-shadow: 0 1px 3px rgba(var(--bs-black-rgb),.12), 0 1px 1px 1px rgba(var(--bs-black-rgb),.16);
+        box-shadow: 0 1px 3px 0 rgba(var(--bs-black-rgb), .12), 0 1px 1px 1px rgba(var(--bs-black-rgb), .16), 0 -1px 0 0 rgba(var(--bs-black-rgb), 0.25);
     }
 
     .fr-second-toolbar {
