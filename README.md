@@ -22,3 +22,25 @@ or add
 ```
 
 to the require section of your composer.json
+
+## Default configuration
+
+This widget extends the original FroalaEditor Widget.
+This had to be done to be able to configure the FroalaEditor in the Yii2 way. I also added a few default options, you
+can overwrite them in the configuration of the application, or in the configuration of the widget.
+
+## Plugins
+
+The original FroalaEditor adds the plugins dynamically, which makes it impossible to configure them in the Yii2 way.
+They are all loaded by default, but you can disable them in the configuration of the widget:
+
+```php
+<?= FroalaEditor::widget([
+    'clientPlugins' => [
+        ...
+    ],
+    'excludedPlugins' => [
+        ...
+    ],
+]); ?>
+```

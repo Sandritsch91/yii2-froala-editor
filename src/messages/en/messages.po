@@ -1,0 +1,39 @@
+msgctxt "sandritsch91/yii2-froala"
+msgid "Primary"
+msgstr "Primary"
+
+msgctxt "sandritsch91/yii2-froala"
+msgid "Secondary"
+msgstr "Secondary"
+
+msgctxt "sandritsch91/yii2-froala"
+msgid "Success"
+msgstr "Success"
+
+msgctxt "sandritsch91/yii2-froala"
+msgid "Danger"
+msgstr "Danger"
+
+msgctxt "sandritsch91/yii2-froala"
+msgid "Warning"
+msgstr "Warning"
+
+msgctxt "sandritsch91/yii2-froala"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "sandritsch91/yii2-froala"
+msgid "Light"
+msgstr "Light"
+
+msgctxt "sandritsch91/yii2-froala"
+msgid "Bordered"
+msgstr "Bordered"
+
+msgctxt "sandritsch91/yii2-froala"
+msgid "Small"
+msgstr "Small"
+
+msgctxt "sandritsch91/yii2-froala"
+msgid "Striped"
+msgstr "Striped"

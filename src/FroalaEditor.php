@@ -21,7 +21,34 @@ class FroalaEditor extends FroalaEditorWidget
     {
         parent::init();
 
-        $this->clientOptions = ArrayHelper::merge($this->defaultClientOptions, $this->clientOptions);
+        \Yii::$app->i18n->translations['sandritsch91/yii2-froala'] = [
+            'class' => 'yii\i18n\GettextMessageSource',
+            'sourceLanguage' => 'en-US',
+            'basePath' => '@sandritsch91/yii2/froala/messages',
+            'forceTranslation' => true
+        ];
+
+        $this->clientOptions = ArrayHelper::merge(
+            [
+                'linkStyles' => [
+                    'btn btn-primary' => \Yii::t('sandritsch91/yii2-froala', 'Primary'),
+                    'btn btn-secondary' => \Yii::t('sandritsch91/yii2-froala', 'Secondary'),
+                    'btn btn-success' => \Yii::t('sandritsch91/yii2-froala', 'Success'),
+                    'btn btn-danger' => \Yii::t('sandritsch91/yii2-froala', 'Danger'),
+                    'btn btn-warning' => \Yii::t('sandritsch91/yii2-froala', 'Warning'),
+                    'btn btn-info' => \Yii::t('sandritsch91/yii2-froala', 'Info'),
+                    'btn btn-light' => \Yii::t('sandritsch91/yii2-froala', 'Light'),
+                    'btn btn-dark' => \Yii::t('sandritsch91/yii2-froala', 'Dark'),
+                ],
+                'tableStyles' => [
+                    'table-bordered' => \Yii::t('sandritsch91/yii2-froala', 'Bordered'),
+                    'table-condensed table-sm' => \Yii::t('sandritsch91/yii2-froala', 'Small'),
+                    'table-striped' => \Yii::t('sandritsch91/yii2-froala', 'Striped'),
+                ]
+            ],
+            $this->defaultClientOptions,
+            $this->clientOptions
+        );
     }
 
     /**

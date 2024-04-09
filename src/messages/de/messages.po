@@ -1,0 +1,43 @@
+msgctxt "sandritsch91/yii2-froala"
+msgid "Primary"
+msgstr "Primär"
+
+msgctxt "sandritsch91/yii2-froala"
+msgid "Secondary"
+msgstr "Sekundär"
+
+msgctxt "sandritsch91/yii2-froala"
+msgid "Success"
+msgstr "Erfolg"
+
+msgctxt "sandritsch91/yii2-froala"
+msgid "Danger"
+msgstr "Gefahr"
+
+msgctxt "sandritsch91/yii2-froala"
+msgid "Warning"
+msgstr "Warnung"
+
+msgctxt "sandritsch91/yii2-froala"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "sandritsch91/yii2-froala"
+msgid "Light"
+msgstr "Hell"
+
+msgctxt "sandritsch91/yii2-froala"
+msgid "Dark"
+msgstr "Dunkel"
+
+msgctxt "sandritsch91/yii2-froala"
+msgid "Bordered"
+msgstr "Ränder"
+
+msgctxt "sandritsch91/yii2-froala"
+msgid "Small"
+msgstr "Schmal"
+
+msgctxt "sandritsch91/yii2-froala"
+msgid "Striped"
+msgstr "Gestreift"
