@@ -29,6 +29,22 @@ This widget extends the original FroalaEditor Widget.
 This had to be done to be able to configure the FroalaEditor in the Yii2 way. I also added a few default options, you
 can overwrite them in the configuration of the application, or in the configuration of the widget.
 
+### Product key
+
+You can set the product key in the (local) configuration of the application:
+
+```php
+'container' => [
+    'definitions' => [
+        'sandritsch91\yii2\froala\FroalaEditor' => [
+            'defaultClientOptions' => [
+                'key' => 'YOUR_PRODUCT_KEY',
+            ]
+        ]
+    ]
+]
+```
+
 ## Plugins
 
 The original FroalaEditor adds the plugins dynamically, which makes it impossible to configure them in the Yii2 way.
