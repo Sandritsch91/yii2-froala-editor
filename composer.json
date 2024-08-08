@@ -24,7 +24,7 @@
     "require": {
         "php": ">=8.2",
         "yiisoft/yii2": "^2.0.42",
-        "froala/yii2-froala-editor": "^4.1.1"
+        "froala/yii2-froala-editor": "^4.2.1"
     },
     "require-dev": {
         "yiisoft/yii2-bootstrap5": "^2.0.4"
