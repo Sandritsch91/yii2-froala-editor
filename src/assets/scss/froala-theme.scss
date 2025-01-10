@@ -3,7 +3,8 @@
 
 @import "../../../vendor/bower-asset/bootstrap/scss/variables";
 
-.custom-theme {
+// class custom-theme is only here to avoid backward compatibility issues
+.custom-theme, .fr-basic {
     .fr-toolbar, &.fr-popup {
         /*
         @include border-top-radius($input-border-radius);
