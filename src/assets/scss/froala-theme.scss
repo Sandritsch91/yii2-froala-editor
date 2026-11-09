@@ -46,3 +46,27 @@
     box-shadow: var(--bs-box-shadow-inset);
     border-top: 1px solid var(--bs-border-color);
 }
+
+// Inside a Bootstrap .input-group, square off the corners that touch
+// neighbouring addons/buttons (same logic Bootstrap uses for .form-control)
+.input-group .fr-box {
+    &:not(:first-child) {
+        .fr-toolbar.fr-top {
+            border-top-left-radius: 0;
+        }
+
+        .fr-second-toolbar {
+            border-bottom-left-radius: 0;
+        }
+    }
+
+    &:not(:last-child) {
+        .fr-toolbar.fr-top {
+            border-top-right-radius: 0;
+        }
+
+        .fr-second-toolbar {
+            border-bottom-right-radius: 0;
+        }
+    }
+}
